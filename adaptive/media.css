@@ -1,0 +1,324 @@
+@media (max-width: 980px) {
+  .post-box {
+    max-width: 360px;
+  }
+}
+
+@media (max-width: 776px) {
+  .header a {
+    font-size: 17px;
+    font-weight: 500;
+  }
+
+  .about img {
+    max-width: 200px;
+    width: 100%;
+  }
+  .about-text h1 {
+    font-size: 37px;
+    font-weight: 600;
+  }
+  .about-text p {
+    padding-block: 10px;
+    width: 450px;
+    font-size: 14px;
+  }
+  .about-text button {
+    width: 170px;
+    height: 37px;
+    font-size: 15px;
+  }
+  .post-top h4 {
+    font-size: 19px;
+  }
+
+  .post-top a {
+    font-size: 14px;
+  }
+  .post-box {
+    max-width: 285px;
+    width: 100%;
+    padding: 15px;
+  }
+  .post-box h1 {
+    font-size: 18px;
+  }
+  .post-box h5 {
+    padding-block: 10px;
+    font-size: 13px;
+  }
+  .post-box h5 span {
+    margin-inline: 5px;
+  }
+  .post-box p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .work {
+    gap: 20px;
+  }
+  .work-box {
+    padding-block: 10px;
+  }
+  .work-text {
+    padding-inline: 15px;
+    gap: 12px;
+  }
+  .work-box img {
+    max-width: 200px;
+  }
+
+  .work-text {
+    padding-inline: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .work-dash {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .work-text h1 {
+    font-size: 23px;
+    font-weight: 700;
+  }
+  .work-text h4 {
+    font-size: 16px;
+    color: #8695a4;
+    font-weight: 300;
+  }
+  .work-text span {
+    background: #142850;
+    padding: 3px 5px;
+    border-radius: 20px;
+    font-size: 12px;
+    color: #fff;
+  }
+  .work-text p {
+    width: 350px;
+    font-size: 12px;
+    line-height: 20px;
+  }
+  #work h2 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+  #work {
+    padding-block: 30px;
+  }
+  .footer-logo {
+    gap: 18px;
+  }
+  .footer-logo img {
+    max-width: 25px;
+  }
+  .footer p {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 558px) {
+  .header a {
+    font-size: 14px;
+  }
+  #about {
+    padding-block: 40px;
+  }
+  .about img {
+    max-width: 130px;
+    width: 100%;
+  }
+  .about {
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 10px;
+  }
+  .about-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .about-text h1 {
+    width: 230px;
+    font-size: 23px;
+    font-weight: 700;
+  }
+
+  .about-text p {
+    padding-block: 10px;
+    width: 300px;
+    font-size: 13px;
+  }
+
+  .about-text button {
+    width: 150px;
+    height: 30px;
+    font-size: 14px;
+  }
+  .post {
+    flex-direction: column;
+    gap: 15px;
+  }
+  .post-top a {
+    display: none;
+  }
+  .post-top {
+    justify-content: center;
+  }
+  .work {
+    align-items: center;
+  }
+  .work-box {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #work h2 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+  .work-box img {
+    max-width: 300px;
+    width: 100%;
+  }
+
+  .work-text {
+    padding-block: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .work-dash {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .work-text h1 {
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .work-text h4 {
+    font-size: 15px;
+  }
+  .work-text span {
+    font-size: 13px;
+  }
+  .work-text p {
+    width: 300px;
+    font-size: 13px;
+    line-height: 20px;
+  }
+  #footer {
+    padding-block: 30px;
+  }
+}
+
+@media (max-width: 350px) {
+  #header {
+    display: none;
+  }
+  .about img {
+    max-width: 150px;
+    width: 100%;
+  }
+
+  .about-text h1 {
+    width: 300px;
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .about-text p {
+    padding-block: 5px;
+    width: 300px;
+    font-size: 11px;
+  }
+
+  .about-text button {
+    width: 110px;
+    height: 20px;
+    font-size: 10px;
+  }
+  .post-top h4 {
+    font-size: 15px;
+  }
+  .post-box {
+    max-width: 225px;
+    width: 100%;
+    padding: 15px;
+  }
+  .post-box h1 {
+    font-size: 15px;
+  }
+  .post-box h5 {
+    padding-block: 5px;
+    font-size: 10px;
+  }
+  .post-box h5 span {
+    margin-inline: 5px;
+  }
+  .post-box p {
+    font-size: 9px;
+    line-height: 15px;
+  }
+
+  #work h2 {
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: 10px;
+  }
+  .work-box img {
+    max-width: 210px;
+    width: 100%;
+  }
+
+  .work-text {
+    padding-block: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .work-dash {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .work-text h1 {
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .work-text h4 {
+    font-size: 12px;
+  }
+  .work-text span {
+    font-size: 10px;
+  }
+  .work-text p {
+    width: 200px;
+    font-size: 10px;
+    line-height: 15px;
+  }
+  #footer {
+    padding-block: 20px;
+  }
+  .footer {
+    gap: 10px;
+  }
+
+  .footer-logo {
+    gap: 10px;
+  }
+  .footer-logo img {
+    max-width: 20px;
+  }
+  .footer p {
+    font-size: 10px;
+  }
+}
